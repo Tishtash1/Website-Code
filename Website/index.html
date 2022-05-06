@@ -2,32 +2,32 @@
 <html>
     <head></head>
     
-<head>
+<header>
     <div class="bg-image">
     <title>Tish's portfolio</title>
     <div style="padding: 10px;">
     
-        <h1 style="font-family:monospace,fantasy;">Tish's Portfolio</h1>
+        <h2 style="font-family:monospace,fantasy;">Tish's Portfolio</h2>
     
-        <h2 style="font-family:Arial, Helvetica, sans-serif;">Welcome!</h2>
+        <h3 style="font-family:Arial, Helvetica, sans-serif;">Welcome!</h3>
    
         <p style="text-align:center;"></p>
     <link rel="stylesheet" href="style.css">
     </div>
-</head>
+</header>
 
 <body>
     <div class="container"></div>
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#mypage">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#art">Art</a></li>
             <li><a href="#code">Code</a></li>
             <li><a href="#other">Other</a></li>
         </ul>
     </nav>
-    <section id="home">
+    <section id="mypage">
         <h1>Welcome TO My Page</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti doloremque minima ut ipsum illum quidem!</p>
     </section>
@@ -57,27 +57,27 @@
     <b>
 
     <div style="position:absolute;top:250px;left:25%">
-    <a style = "color:black" href="company/about.html">
+    <a style = "color:white" href="company/about.html">
         <p style="text-align: center">About Me</a></p>
     </div>
 
     <div style="position:absolute;top:250px;left:50%">
-    <a style = "color:black" href="company/Art.html">
+    <a style = "color:white" href="company/Art.html">
         <p style="text-align:center">Art</a></p>
     </div>
 
     <div style="position:absolute;top:250px;left:75%">
-    <a style = "color:black" href="company/Code.html">
+    <a style = "color:white" href="company/Code.html">
         <p style="text-align:center">Code</Code></a></p>
     </div>
     
     <div style="position:absolute;top:250px;left:95%">
-    <a style = "color:black" href="company/other.html">
+    <a style = "color:white" href="company/other.html">
         <p style="text-align: center">Other</a></p>
     </div>
 
     <div style="position:absolute;top:250px;left:5%">
-    <a style="color:black" href="index.html">
+    <a style="color:white" href="index.html">
         <p style="text-align:center">Home Page</a></p>
     </div>
 
@@ -95,11 +95,11 @@
         height:40px;}
     a{
         position:relative;
-        color: #000;
+        color: white;
         text-decoration: none;
     }
     a:hover{
-        color: #000;
+        color: white;
     }
 
     a::before {
@@ -110,7 +110,7 @@
         height:2px;
         bottom: 0;
         left: 0;
-        background-color: #000;
+        background-color: white;
         transform:scaleX(0);
         transition:transform 0.3s ease;
     }
@@ -122,8 +122,39 @@
     a:visited {color:darkgray}
     a:hover{color:darkgrey}
     
+    .header{height:50px;
+    border:1px solid #ccc;
+    position:fixed;
+    width:100%;
+    top:0px;
+    }
+
+    .content {
+        width:1000px;
+        border:1px solid #ccc;
+        height: 2000px;
+        margin:70px auto;
+    }
+
+  
+
+    h2{
+        position:absolute;
+        left:32%;
+        top:10px;
+        font-size: 80px;
+    }
+
+    h3{
+        position: absolute;
+        left: 45%;
+        top: 120px;
+        font-size: 50px;
+    }
+    
     
 </style>
+
 
 
 </html>
