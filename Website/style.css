@@ -74,3 +74,8 @@ section p {
     background-size: 100%;
 }
 
+#colorstrip{
+    height:0px;
+    border-bottom:solid 10px white;
+}
+
