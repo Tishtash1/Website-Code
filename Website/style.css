@@ -76,6 +76,7 @@ section p {
 
 #colorstrip{
     height:0px;
-    border-bottom:solid 10px white;
+    border-bottom:solid 10px rgb(231, 230, 230);
 }
+
 
